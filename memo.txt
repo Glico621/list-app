@@ -1,0 +1,7 @@
+mkdir project名
+cd project名
+python -m venv env
+env\Scripts\activate
+pip install django django-crispy-forms django-filter
+django-admin startproject project .
+manage.py startapp app
